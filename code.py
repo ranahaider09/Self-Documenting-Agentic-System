@@ -24,6 +24,8 @@ def calculate_area(shape, **kwargs):
         # Return 0 for unsupported shapes
         return 0
 
+
+# create a function that divides two numbers
 def divide_numbers(a, b):
     """
     Divides two numbers.
@@ -40,6 +42,7 @@ def divide_numbers(a, b):
     """
     return a / b
 
+#create a function that processes a list of numbers
 def process_list(items):
     """
     Processes a list of numbers by doubling each item and summing them up.
@@ -56,6 +59,7 @@ def process_list(items):
         total += items[i] * 2
     return total
 
+#create a class that performs basic arithmetic operations
 class Calculator:
     """
     A simple calculator class that performs basic arithmetic operations
